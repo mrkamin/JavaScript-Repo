@@ -22,9 +22,14 @@
 //  console.log(`The price is $${price}`);
 //  console.log(`My gpa is ${gpa}`)
 
-let firstName = "Rafi";
+// let firstName = "Rafi";
 
-console.log(typeof firstName);
-console.log(firstName);
+// console.log(typeof firstName);
+// console.log(firstName);
 
+let online = true;
+let forSale = false;
+
+console.log(`I am online: ${online}`);
+console.log(`These are for sale ${forSale}`);
 
