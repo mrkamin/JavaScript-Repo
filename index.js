@@ -10,13 +10,21 @@
 // x = 100;
 //  console.log(x);
 
- let x = 100;
- console.log(x);
+//  let x = 100;
+//  console.log(x);
 
- let age = 25;
- let price = 10.99;
- let gpa = 2.1;
+//  let age = 25;
+//  let price = 10.99;
+//  let gpa = 2.1;
 
- console.log(`Yor are ${age} years old`);
- console.log(`The price is $${price}`);
- console.log(`My gpa is ${gpa}`)
+//  conole.log(typeof age);
+//  console.log(`Yor are ${age} years old`);
+//  console.log(`The price is $${price}`);
+//  console.log(`My gpa is ${gpa}`)
+
+let firstName = "Rafi";
+
+console.log(typeof firstName);
+console.log(firstName);
+
+
