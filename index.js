@@ -1,7 +1,17 @@
-let fullName = "Rafi Amin";
-let age = 25;
-let isStudent = false;
+let students = 30;
 
-document.getElementById("p1").textContent = `Your name is ${fullName}`;
-document.getElementById("p2").textContent = `You are ${age} years old`;
-document.getElementById("p3").textContent = `Enrollec: ${isStudent}`;
+students = students + 1;
+console.log(students); //31
+students = students - 1;
+console.log(students); //30
+students = students * 2;
+console.log(students);//60
+students = students / 2;
+console.log(students); //30
+students = students ** 2;
+console.log(students); //900
+
+let extraStudents = students % 3;
+
+console.log(extraStudents) //0
+
