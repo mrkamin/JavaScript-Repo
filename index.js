@@ -1,32 +1,6 @@
-let students = 30;
+let result = 12 % 5 + 8 /2 ;
 
-// students = students + 1;
-// console.log(students); //31
-// students = students - 1;
-// console.log(students); //30
-// students = students * 2;
-// console.log(students);//60
-// students = students / 2;
-// console.log(students); //30
-// students = students ** 2;
-// console.log(students); //900
+console.log(result) //6
 
-// let extraStudents = students % 3;
-
-// console.log(extraStudents) //0
-
-students = students += 1;
-console.log(students); //31
-students = students -= 1;
-console.log(students); //30
-students = students *= 2;
-console.log(students);//60
-students = students /= 2;
-console.log(students); //30
-students = students **= 2;
-console.log(students); //900
-
-let extraStudents1 = students %= 3;
-
-console.log(extraStudents1) //0
-
+let result2 = 6/2 ** (2+5);
+console.log(result2) //0.046875
