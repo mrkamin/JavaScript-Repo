@@ -1,6 +1,11 @@
-let userName;
-document.getElementById('mybtn').onclick = function(){
-    userName = document.getElementById('myInput').value;
-    console.log(`Clicked ${userName}`)
-    document.getElementById('myH1').textContent = userName;
-}
+let age = window.prompt("How old are you?");
+age+=1
+console.log(age, typeof age) // 251 string
+
+let age2 = window.prompt("How old are you?");
+
+age2 = Number(age2);
+
+age2+=1;
+
+console.log(age2, typeof age2) // 26 'number'
