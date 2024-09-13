@@ -1,4 +1,10 @@
-{
-    let x = 2
+var globalVar = "I am global";
+
+function checkGlobal() {
+    console.log("inside check",globalVar);
 }
-console.log(x)
+
+checkGlobal()
+
+console.log("outside checke", globalVar)
+
