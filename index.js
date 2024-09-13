@@ -19,9 +19,10 @@ function checkGlobal() {
    
 
     if(blockScopeCheck = true){
-        const blockScopVar = "I am block-scoped var";
+        let blockScopVar = "I am block-scoped var";
         console.log(blockScopVar)
     }
+    console.log(blockScopeVar)
 
 }
 
