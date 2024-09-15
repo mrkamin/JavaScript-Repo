@@ -1,47 +1,23 @@
-import { moduleScopeExample } from "./module-scope.js";
+// Global Scope 
+// Variables are accessible everywhere in the code
 
-var globalVar = "I am global var";
-let globalLet = "I am global let";
-const globalConst = "I am global const";
+const globalScopeExample = "I am global Scope Example";
 
-let blockScopeCheck = true
+const globalScopeExample2 = true; 
 
-function checkGlobal() {
-    var localFunScopeVar = "I am local function scope Var";
-    let localFunScopeLet = "I am local function scope Let";
-    const localFunScopeConst = "I am local function scope const";
-    console.log("inside check",globalVar);
-    console.log("inside check",globalLet);
-    console.log("inside check",globalConst);
+console.log("global Scope test", globalScopeExample);
 
-    console.log("inside check",localFunScopeVar);
-    console.log("inside check",localFunScopeLet);
-    console.log("inside check",localFunScopeConst);
-
-    console.log("inside function check", moduleScopeExample)
-
-   
-
-    if(blockScopeCheck = true){
-        var blockScopVar = "I am block-scoped var";
-        console.log(blockScopVar)
-        console.log("inside block check", moduleScopeExample)
+function globalScopeTest(){
+    console.log("global Scope test2", globalScopeExample)
+    if(globalScopeExample2 === true){
+        console.log("global Scope test3", globalScopeExample)
     }
-    console.log(blockScopVar)
-
 }
 
-checkGlobal()
+globalScopeTest()
 
-console.log("outside checke", globalVar)
-console.log("outside checke", globalLet)
-console.log("outside checke", globalConst)
+// Function Scope
 
-console.log("global check", moduleScopeExample)
+// Block Scope
 
-// console.log("outside checke", localFunScopeVar);
-// console.log("outside checke", localFunScopeLet);
-// console.log("outside checke", localFunScopeConst)
-
-
-
+// Module Scope
