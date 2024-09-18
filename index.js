@@ -1,5 +1,7 @@
 const blockScopeTest = true;
 
 if(blockScopeTest === true){
-    console.log("I am block scope test");
+    let blockScopeTestInsideBlok = "I am block scope";
+    console.log(blockScopeTestInsideBlok)
 };
+ 
