@@ -1,11 +1,12 @@
-let x  ;
-let y  ;
-let z  ;
+const PI = 3.14159;
+let radius;
+let circumference;
 
-x = Number(x);
-y = String(y);
-z = Boolean(z);
+PI = 5.233
 
-console.log(x, typeof x);
-console.log(y, typeof y);
-console.log(z, typeof z)
+radius = window.prompt('Enter the radius of a circle');
+radius = Number(radius);
+
+circumference = 2* PI* radius;
+
+console.log(circumference)
