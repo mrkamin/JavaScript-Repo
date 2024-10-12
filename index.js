@@ -6,5 +6,9 @@ document.getElementById('decrease').onclick = () => {
     document.getElementById("mylabel").textContent = count
 }
 
-
+document.getElementById('increase').onclick = () => {
+    count++
+    console.log(count)
+    document.getElementById("mylabel").textContent = count
+}
 
