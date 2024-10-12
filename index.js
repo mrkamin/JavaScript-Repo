@@ -1,16 +1,20 @@
+const decrease = document.getElementById('decrease');
+const increase = document.getElementById('increase');
+const reset = document.getElementById('reset');
+const myLabel =  document.getElementById("mylabel");
 let count = 0;
 
-document.getElementById('decrease').onclick = () => {
+decrease.onclick = () => {
     count--
-    document.getElementById("mylabel").textContent = count
+   myLabel.textContent = count
 }
 
-document.getElementById('increase').onclick = () => {
+increase.onclick = () => {
     count++
-    document.getElementById("mylabel").textContent = count
+    myLabel.textContent = count
 }
 
-document.getElementById('reset').onclick = () => {
+reset.onclick = () => {
     count = 0
-    document.getElementById("mylabel").textContent = count
+    myLabel.textContent = count
 }
