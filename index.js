@@ -12,3 +12,8 @@ document.getElementById('increase').onclick = () => {
     document.getElementById("mylabel").textContent = count
 }
 
+document.getElementById('reset').onclick = () => {
+    count = 0
+    console.log(count)
+    document.getElementById("mylabel").textContent = count
+}
