@@ -16,6 +16,14 @@ let g = 3.99;
 h = Math.floor(e);
 console.log(h); // out = 3
 
+let i = 3.99;
+j = Math.ceil(i);
+console.log(j); // 4
+
+let k = 3.4;
+l = Math.ceil(k);
+console.log(l);// 4
+
 let x = 3;
 let y = 2;
 let z = 1;
