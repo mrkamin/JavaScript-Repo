@@ -34,5 +34,7 @@ console.log("P =",p);//3
 
 let x = 3;
 let y = 2;
-let z = 1;
+let z = 9;
 
+q = Math.pow(x,y);
+console.log("Q =",q) // out = 9
