@@ -8,9 +8,10 @@ let z = 9;
 //z = Math.tan(x);
 //z = Math.abs(x);
 //z = Math.sign(x);
-z = Math.max(x,y,z)
+//z = Math.max(x,y,z)
+z = Math.min(x,y,z);
 
 
 
-console.log('Z =',z);//9
+console.log('Z =',z);//2
 
