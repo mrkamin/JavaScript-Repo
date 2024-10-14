@@ -1,4 +1,4 @@
-let x = -5;
+let x = 5;
 let y = 2;
 let z;
 
@@ -6,9 +6,10 @@ let z;
 // z = Math.log(x);
 // z = Math.cos(x);
 //z = Math.tan(x);
-z = Math.abs(x);
+//z = Math.abs(x);
+z = Math.sign(x)
 
 
 
-console.log('Z =',z);//5
+console.log('Z =',z);//1
 
