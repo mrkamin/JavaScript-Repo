@@ -1,11 +1,20 @@
-let age = window.prompt("How old are you?");
-age+=1
-console.log(age, typeof age) // 251 string
+const decrease = document.getElementById('decrease');
+const increase = document.getElementById('increase');
+const reset = document.getElementById('reset');
+const myLabel =  document.getElementById("mylabel");
+let count = 0;
 
-let age2 = window.prompt("How old are you?");
+decrease.onclick = () => {
+    count--
+   myLabel.textContent = count
+}
 
-age2 = Number(age2);
+increase.onclick = () => {
+    count++
+    myLabel.textContent = count
+}
 
-age2+=1;
-
-console.log(age2, typeof age2) // 26 'number'
+reset.onclick = () => {
+    count = 0
+    myLabel.textContent = count
+}
