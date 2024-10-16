@@ -1,5 +1,8 @@
 // random = number generator
 
-let random = Math.floor(Math.random()*6)+1
+let max = 100;
+let min = 50;
+
+let random = Math.floor(Math.random()*(min + max)) +1
 
 console.log(random);
