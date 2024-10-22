@@ -16,3 +16,13 @@ if(isStudent){
     console.log("You are not a student")
 }
 
+let time = 11
+
+if (time < 12){
+    console.log("Good Mornign")
+}else if(time > 12){
+    console.log('Good afternon')
+}else{
+    console.log('Good Noon')
+}
+
