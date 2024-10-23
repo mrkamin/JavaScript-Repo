@@ -26,3 +26,24 @@ if (time < 12){
     console.log('Good Noon')
 }
 
+const ifStatLabel = document.getElementById('if-stat-label');
+const ifStatBtn = document.getElementById('if-stat-btn')
+const ifStatInput = document.getElementById('if-stat-input');
+const ifStatP = document.getElementById('if-stat-p');
+
+let ifStatecont;
+
+ifStatBtn.onclick = () => {
+    ifStatecont = ifStatInput.value
+    if(ifStatecont < 12){
+        ifStatP.textContent = "Good Morning"
+    }else if(ifStatecont > 12) {
+        ifStatP.textContent = "Good After Noon"
+    } else {
+        ifStatP.textContent = "Good Noon"
+    }
+    
+}
+
+
+
