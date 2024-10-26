@@ -58,7 +58,19 @@ let myResult;
 mySubmitBtn.onclick = () => {
     if(myChickBox.checked){
         mySubP.textContent = "You are Subscribed"
-    }
+     }else{
+        mySubP.textContent = "You are not subscribed"
+     } 
+    
+   if (myVisa.checked) {
+    myCardSelP.textContent = "You are paying with Visa"
+   } else if(myMasterCard.checked) {
+    myCardSelP.textContent = "You are paying with master card"
+}else if (myPayPal.checked) {
+    myCardSelP.textContent = "You are paying with Paypal"
+}else {
+    myCardSelP.textContent = "no Paying"
+}
 }
 
 
