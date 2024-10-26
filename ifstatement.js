@@ -45,5 +45,21 @@ ifStatBtn.onclick = () => {
     
 }
 
+const myChickBox = document.getElementById('myChickBox');
+const myVisa = document.getElementById('myVisa');
+const myMasterCard = document.getElementById('myMasterCard');
+const myPayPal = document.getElementById("myPayPal");
+const mySubmitBtn = document.getElementById('mySubmitBtn');
+const mySubP = document.getElementById('mySubP');
+const myCardSelP = document.getElementById('myCardSelP');
+
+let myResult;
+
+mySubmitBtn.onclick = () => {
+    if(myChickBox.checked){
+        mySubP.textContent = "You are Subscribed"
+    }
+}
+
 
 
