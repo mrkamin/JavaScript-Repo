@@ -13,9 +13,49 @@
      <button id="reset">Reset</button>
      <button id="increase">Increase</button>    
     </div>
+    <div class="random-generator-cont">
+        <label for="" id="random-label">0</label>
+        <button id="random-btn">Roll</button>
+    </div>
+
+    <div class="if-stat-cont" id="if-stat-cont">
+        <div class="if-stat-cont-item-one">
+            <p class="if-stat-p" id="if-stat-p">0</p>
+            <lable class="if-stat-label" id="if-stat-label">
+            <input type="text" class="if-stat-input" id="if-stat-input">
+            <button id="if-stat-btn">Enter</button>
+        </div>
+        <br>
+        <div class="if-stat-cont-item-two">
+            <div>
+                <input type="checkbox" class="myChickBox" id="myChickBox">
+                <label for="myChickBox" id="myLabel">Subiscribe</label>    
+            </div>
+            <div>
+                <input type="radio" id="myVisa" name="myRadio">
+                <label for="myVisa" id="myLabel">Visa</label>
+            </div>
+            <div>
+                <input type="radio" id="myMasterCard" name="myRadio">
+                <label for="myMasterCard" id="myLabel">MasterCard</label>
+            </div>
+            <div>
+                <input type="radio" id="myPayPal" name="myRadio">
+                <label for="myPayPal" id="myLabel">PayPal</label>
+            </div>
+           <br>
+
+            <button id="mySubmitBtn">Submit</button>
+            <div>
+                <p id="mySubP"></p>
+                <p id="myCardSelP"></p>
+            </div>
+        </div>
+    </div>
 
 
     <script src="index.js"></script>
     <script src="math.js"></script>
+    <script src="ifstatement.js"></script>
 </body>
 </html>
