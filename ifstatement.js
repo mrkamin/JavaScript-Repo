@@ -69,7 +69,7 @@ mySubmitBtn.onclick = () => {
 }else if (myPayPal.checked) {
     myCardSelP.textContent = "You are paying with Paypal"
 }else {
-    myCardSelP.textContent = "no Paying"
+    myCardSelP.textContent = "You don't pay any amount"
 }
 }
 
